@@ -98,7 +98,7 @@ To run tests, run the following command:
 
 `npm run test`
 
-a href="#readme-top">back to top</a>)</p>
+<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
