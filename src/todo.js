@@ -1,4 +1,5 @@
 import trashImgSrc from '../assets/trash-can-regular.svg';
+import isCompletedAndChecked from './isCompletedAndChecked.js';
 
 export default class TodoTasks {
   constructor(description, completed, index) {
@@ -43,25 +44,6 @@ export default class TodoTasks {
     this.saveOnChangeTask(taskDescriptions);
   }
 
-  isCompletedAndChecked = (checkbox, i) => {
-    if (this.taskList[i].completed) {
-      checkbox.checked = true;
-      document.querySelector(`.content${i}`).classList.add('completed');
-    }
-
-    checkbox.addEventListener('change', () => {
-      if (checkbox.checked) {
-        document.querySelector(`.content${i}`).classList.add('completed');
-        this.taskList[i].completed = true;
-        localStorage.setItem('tasks', JSON.stringify(this.taskList));
-      } else {
-        document.querySelector(`.content${i}`).classList.remove('completed');
-        this.taskList[i].completed = false;
-        localStorage.setItem('tasks', JSON.stringify(this.taskList));
-      }
-    });
-  }
-
   removeTask = (tasks, taskTrashBtns) => {
     for (let i = 0; i < tasks.length; i += 1) {
       taskTrashBtns[i].addEventListener('click', () => {
@@ -95,7 +77,9 @@ export default class TodoTasks {
 
   resetIndex = () => {
     for (let i = 0; i < this.taskList.length; i += 1) {
-      this.taskList[i].index = i;
+      this.taskList[i].index = i + 1;
     }
   }
 }
+
+TodoTasks.prototype.isCompletedAndChecked = () => isCompletedAndChecked;
