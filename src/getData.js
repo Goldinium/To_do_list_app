@@ -1,5 +1,6 @@
 import trippledotsicon from './assets/3dots.png';
 import deleteIcon from './assets/delete.png';
+import reloadIcon from './assets/reload.png'
 
 export default function getData() {
   let arrOftodos = [];
@@ -38,4 +39,9 @@ export default function getData() {
       document.querySelector(`#\\${i + 30} > a > img`).src = deleteIcon;
     }
   }
+
+  const reload = document.getElementById('todo-reload');
+  reload.src = reloadIcon;
+
+
 }

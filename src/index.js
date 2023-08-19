@@ -1,5 +1,4 @@
 import './style.css';
-import './assets/reload.png'
 import getData from './getData.js';
 import updater from './status.js';
 import addingNewTodos from './adding.js';
