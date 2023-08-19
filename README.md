@@ -1,78 +1,159 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Project Name
+<!-- TABLE OF CONTENTS -->
 
-> Todo-list
+# 📗 Table of Contents
 
-![screenshot](./app_screenshot.png)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-This Website is a to-do-list project. A simple as it seems. You have your list of todos and whenever you finish one you can delete it. And then whenever you want to add a new one you can add it
+<!-- PROJECT DESCRIPTION -->
 
-## Built With
+# 📖 [To do list app] <a name="about-project"></a>
 
-- HTML, CSS, JavaScript
-- Webpack
-- VS Code
+**[To Do List App]** This is a Todo list creating, modifying, and deleting Project. Through which you can manage your time and plan what you would do. And once you finish one of the tasks you can always mark it as completed and delete it 
+## 🛠 Built With <a name="built-with"></a>
 
-## Live Demo
+### Tech Stack <a name="tech-stack"></a>
 
-None; need to built locally
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
+    <li>Webpack</li>
+  </ul>
+</details>
 
-## Getting Started
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li>Local server</li>
+  </ul>
+</details>
 
-To get a local copy up and running follow these simple example steps.
+<details>
+<summary>Database</summary>
+  <ul>
+    <li>None</li>
+  </ul>
+</details>
 
-### Prerequisites
+<!-- Features -->
 
-- VSCODE / Live HTTP Server (./dist)
+### Key Features <a name="key-features"></a>
 
-- OS with Git installed on it
 
+- **[Add tasks]**
+- **[Remove tasks]**
+- **[Svae tasks to local storage]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
 
 ### Setup
 
-**Run** https://github.com/Goldinium/To_do_list_app.git
+Clone this repository to your desired folder:
 
-**Test**
+To get a local copy up and running, follow these steps.
 
-### Test
+`git` clone https://github.com/Goldinium/To_do_list_app.git
 
-npm i jest
+### Install
 
-npm run test 
+In order to install and run this project you need to:
 
-## Key Features
+Install dependencies 
 
-- Display tasks and render them dynamically from JavaScript
+`npm install d`
 
-## Future Features
+### Usage
 
-- Implementing remove & add buttons
+To run the project, execute the following commands
 
-- Implemeting interactivity 
+`npm run build`
 
-## Authors
+`npm start`
+
+### Run tests
+
+To run tests, run the following command:
+
+`npm i jest`
+
+`npm run test`
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
 
 👤 **Author1**
 
 - GitHub: [@Goldinium](https://github.com/Goldinium)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing
+<!-- FUTURE FEATURES -->
 
-Any contributing is welcome
+## 🔭 Future Features <a name="future-features"></a>
 
-Feel free to check the [issues page](https://github.com/Goldinium/To_do_list_app/issues).
+- [ ] **[Interactive list]**
 
-## Show your support
 
-Give a ⭐️ if you like this project!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Acknowledgments
+<!-- CONTRIBUTING -->
 
-- This project belongs to [Microverse](https://microverse.org/).
+## 🤝 Contributing <a name="contributing"></a>
 
-## 📝 License
+Contributions, issues, and feature requests are welcome!
 
-- This project is [MIT](./Licenses/MIT.md) licensed.
+Feel free to check the [issues page](../../issues/).
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project you can star it
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank microverse
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./Licenses/MIT.md) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
