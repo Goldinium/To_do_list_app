@@ -1,134 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&family=Open+Sans:ital,wght@1,300&display=swap');
 
 * {
-  font-family: 'Source Sans Pro', sans-serif;
-  letter-spacing: 1.3px;
+  box-sizing: border-box;
 }
 
-.d-flex {
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  height: 100vh;
   display: flex;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
+  align-items: center;
+  justify-content: center;
   margin: 0;
 }
 
-a {
-  text-decoration: none;
+.container {
+  border-radius: 3px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+  width: 100%;
 }
 
-.todo-header,
-.list-input,
-.todo-list-activities > ul > li {
-  border-bottom: 1px solid rgb(156 156 156);
-  height: 4.5rem;
+.head {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
-main {
-  height: 90vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(59, 59, 59);
+.hbb {
+  height: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-.todo-list {
-  flex-flow: column nowrap;
-  width: 70%;
-  box-shadow: 1px 3px 13px -3px rgba(0, 0, 0, 0.75);
-  border-radius: 8px;
+.head h2 {
+  color: #545862;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  padding: 1rem;
 }
 
-.todo-header {
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 1%;
-}
-
-.todo-header > h2 {
-  font-size: 2rem;
-  color: rgb(70, 70, 70);
-}
-
-.todo-reload {
-  width: 50%;
-  padding-left: 45%;
-}
-
-.list-input > input {
-  width: 100%;
-  height: 80%;
-  border: none;
-  margin: 1%;
-  padding: 0 7% 0 1%;
-  font-size: 1.3rem;
-  font-weight: 600;
-  font-style: italic;
-  color: rgb(36, 36, 36);
-}
-
-.list-input > input:focus {
-  background-image: url('assets/enter.png');
-  background-repeat: no-repeat;
-  background-position: 98% 50%;
-  background-size: 15px 15px;
-}
-
-.todo-list-activities > ul > li {
-  padding: 0 1%;
-}
-
-.checkbox {
-  height: 1.5rem;
-  width: 1.5rem;
-  margin-right: 2%;
+img {
+  width: 1rem;
   cursor: pointer;
 }
 
-.list-items {
-  width: 89%;
-  height: 2.5rem;
-  border: none;
-  font-size: 1.3rem;
-  font-weight: bold;
-  color: rgb(59, 59, 59);
-  cursor: pointer;
-}
-
-.list-menu > img {
-  width: 70%;
-  cursor: pointer;
-}
-
-.clear-button {
-  justify-content: center;
-  align-items: center;
-  height: 5rem;
-}
-
-.clear-button > button {
+.todo {
+  min-height: 50px;
   width: 100%;
-  height: 100%;
-  font-size: 2rem;
-  color: rgb(39, 39, 39);
-  border: none;
-  border-radius: 0 0 8px 8px;
   padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  font-weight: 300;
+}
+
+li {
+  list-style: none;
+  padding-left: 10px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form {
+  display: flex;
+  width: 100%;
+}
+
+.new-item {
+  width: 90%;
+  height: 45px;
+  font-style: italic;
+  border: none;
+}
+
+button {
+  width: 10%;
+  border: none;
+  background: transparent;
   cursor: pointer;
-  background-color: rgb(221, 221, 221);
 }
 
-.clear-button > button:hover {
-  background-color: rgb(160, 13, 13);
-  color: rgb(228, 228, 228);
+.content {
+  width: 85%;
+  caret-color: sandybrown;
+  padding: 10px;
+  border: none;
 }
 
-.noborder-input:focus {
-  outline: none;
+.completed {
+  color: #b6b6b6;
+  text-decoration: line-through;
+}
+
+.btn {
+  width: 100%;
+  border: none;
+  opacity: 0.5;
+  cursor: pointer;
 }
