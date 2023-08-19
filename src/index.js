@@ -1,3 +1,4 @@
+// eslint-disable max-len
 import TodoTasks from './todo.js';
 import './style.css';
 
@@ -23,7 +24,8 @@ if (todos.getLocalStorage().length > 0) {
     if (event.key === 'Enter' || event.type === 'submit') {
       event.preventDefault();
       const tDescrip = document.querySelector('.new-item').value;
-      const newTask = new TodoTasks(tDescrip, false, (new TodoTasks()).getLocalStorage().length + 1);
+      const newTask = new TodoTasks(tDescrip, false,
+        (new TodoTasks()).getLocalStorage().length + 1);
       newTask.AddTodo();
       newTask.showTodoList();
       todoForm.reset();
