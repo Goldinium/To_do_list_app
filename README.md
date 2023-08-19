@@ -33,8 +33,6 @@ To get a local copy up and running follow these simple example steps.
 
 **Run** https://github.com/Goldinium/To_do_list_app.git
 
-**Test**
-
 ### Test
 
 npm i jest
