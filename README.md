@@ -1,86 +1,166 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Project Name
+<!-- TABLE OF CONTENTS -->
 
-> Todo-list
+# 📗 Table of Contents
 
-![screenshot](./app_screenshot.png)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-# Table of content
+<!-- PROJECT DESCRIPTION -->
 
-- [Tech-stack](#Tech-stack)
-- [Installation](#Installation)
-- [Features](#Features)
-- [Future_featues](#Future_featues)
-- [Authors](#Authors)
-- [Contribution](#Contribution)
-- [Support](#Support)
-- [Acknowledgments](#Acknowledgments)
-- [License](#License)
+# 📖 [your_project_name] <a name="about-project"></a>
+
+**[To Do List App]** This is a Todo list creating, modifying, and deleting Project. Through which you can manage your time and plan what you would do. And once you finish one of the tasks you can always mark it as completed and delete it 
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
+    <li>Webpack</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li>Local server</li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li>None</li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
 
 
+- **[Add tasks]**
+- **[Remove tasks]**
+- **[Svae tasks to local storage]**
 
-This Website is a to-do-list project. A simple as it seems. You have your list of todos and whenever you finish one you can delete it. And then whenever you want to add a new one you can add it
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Built With <a name="Tech-stack"></a>
-
-- HTML, CSS, JavaScript
-- Webpack
-- VS Code
-
-## Getting Started <a name="Installation"></a>
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-- VSCODE / Live HTTP Server (./dist)
-
-- OS with Git installed on it
-
+<!-- GETTING STARTED -->
 
 ### Setup
 
-**Run** https://github.com/Goldinium/To_do_list_app.git
+Clone this repository to your desired folder:
 
-### Test
+To get a local copy up and running, follow these steps.
 
-npm i jest
+`git` clone https://github.com/Goldinium/To_do_list_app.git
 
-npm run test 
+### Install
 
-## Key Features <a name="Features"></a>
+In order to install and run this project you need to:
 
-- Display tasks and render them dynamically from JavaScript
+Install dependencies 
 
-## Future Features <a name="Future_featues"></a>
+`npm install d`
 
-- Implementing remove & add buttons
+### Usage
 
-- Implemeting interactivity 
+To run the project, execute the following commands
 
-## Authors <a name="Authors"></a>
+`npm run build`
+
+`npm start`
+
+### Run tests
+
+To run tests, run the following command:
+
+`npm i jest`
+
+`npm run test`
+
+a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
 
 👤 **Author1**
 
 - GitHub: [@Goldinium](https://github.com/Goldinium)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing <a name="Contribution"></a>
+<!-- FUTURE FEATURES -->
 
-Any contributing is welcome
+## 🔭 Future Features <a name="future-features"></a>
 
-Feel free to check the [issues page](https://github.com/Goldinium/To_do_list_app/issues).
+- [ ] **[Interactive list]**
 
-## Show your support <a name="Support"></a>
 
-Give a ⭐️ if you like this project!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Acknowledgments <a name="Acknowledgments"></a>
+<!-- CONTRIBUTING -->
 
-- This project belongs to [Microverse](https://microverse.org/).
+## 🤝 Contributing <a name="contributing"></a>
 
-## 📝 License <a name="License"></a>
+Contributions, issues, and feature requests are welcome!
 
-- This project is [MIT](./Licenses/MIT.md) licensed.
+Feel free to check the [issues page](../../issues/).
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+> Write a message to encourage readers to support your project
+
+If you like this project...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...micriovese
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./License/MIT.md) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
