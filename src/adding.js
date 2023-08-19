@@ -8,7 +8,7 @@ class Todos {
 
 export default function addingNewTodos() {
   const previousData = JSON.parse(localStorage.getItem('storedTodos'));
-  previousData.push(new Todos(document.querySelector('.list-input > input').value, previousData.length));
+  previousData.push(new Todos(document.querySelector('.list-input > input').value, previousData.length+1));
   localStorage.setItem('storedTodos', JSON.stringify(previousData));
   window.location.reload();
 }
