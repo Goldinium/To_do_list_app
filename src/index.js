@@ -1,6 +1,5 @@
 import './style.css';
 import trippledotsicon from './assets/3dots.png';
-import reload from './assets/reload.png'
 
 const arrOftodos = [
   {

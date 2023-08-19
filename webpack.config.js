@@ -2,14 +2,14 @@ const path = require('path');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
- module.exports = {
-   entry: {
-     index: './src/index.js',
-   },
+module.exports = {
+  entry: {
+    index: './src/index.js',
+  },
 
-   mode: 'development',
+  mode: 'development',
 
-   devServer: {
+  devServer: {
 
     static: './dist',
 
@@ -30,22 +30,22 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
     }),
 
   ],
-   output: {
-     filename: '[name].bundle.js',
-     path: path.resolve(__dirname, 'dist'),
-     assetModuleFilename: '[name][ext]',
-   },
-   
-   module: {
+  output: {
+    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+    assetModuleFilename: '[name][ext]',
+  },
+
+  module: {
     rules: [
       {
         test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
+        use: ['style-loader', 'css-loader'],
       },
       {
-        test:/\.(png|jpg|svg)$/i,
-        type: 'asset/resource'
-      }
+        test: /\.(png|jpg|svg)$/i,
+        type: 'asset/resource',
+      },
     ],
   },
 };
