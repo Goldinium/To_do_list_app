@@ -1,24 +1,36 @@
+// eslint-disable max-len
+import TodoTasks from './todo.js';
 import './style.css';
-import getData from './getData.js';
-import updater from './status.js';
-import addingNewTodos from './adding.js';
-import updaterInput from './updater.js';
-import remove from './singleDelete.js';
-import removeAll from './removeAll.js';
 
-getData();
+import refresh from '../assets/rotate-solid.svg';
+import arrowD from '../assets/arrow-turn-down-left.png';
 
-document.querySelector('.list-input > input').addEventListener('keypress', (e) => {
-  if (e.key === 'Enter') {
-    addingNewTodos();
-    document.querySelector(`#\\${JSON.parse(localStorage.getItem('storedTodos')).length - 1 + 30} > .checkbox`).addEventListener('change', updater.bind(null, JSON.parse(localStorage.getItem('storedTodos')).length - 1), false);
-  }
-});
+const refreshImg = document.getElementById('refresh');
+const arrowImg = document.getElementById('arrow-d-l');
 
-for (let i = 0; i < JSON.parse(localStorage.getItem('storedTodos')).length; i += 1) {
-  document.querySelector(`#\\${i + 30} > .checkbox`).addEventListener('change', updater.bind(null, i), false);
-  document.querySelector(`#\\${i + 30} > .list-items`).addEventListener('click', updaterInput.bind(null, i + 30), false);
-  document.querySelector(`#\\${i + 30} > .list-menu`).addEventListener('click', remove.bind(null, i + 30), false);
+refreshImg.src = refresh;
+arrowImg.src = arrowD;
+
+const todoForm = document.querySelector('#task-form');
+const clearList = document.querySelector('.btn');
+
+const todos = new TodoTasks();
+if (todos.getLocalStorage().length > 0) {
+  todos.showTodoList();
 }
 
-document.querySelector('.clear-button > button').addEventListener('click', removeAll);
+['keypress', 'submit'].forEach((item) => {
+  todoForm.addEventListener(item, (event) => {
+    if (event.key === 'Enter' || event.type === 'submit') {
+      event.preventDefault();
+      const tDescrip = document.querySelector('.new-item').value;
+      const newTask = new TodoTasks(tDescrip, false,
+        (new TodoTasks()).getLocalStorage().length + 1);
+      newTask.AddTodo();
+      newTask.showTodoList();
+      todoForm.reset();
+    }
+  });
+});
+
+clearList.addEventListener('click', () => (new TodoTasks()).clearAllCompleted());
