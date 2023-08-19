@@ -34,10 +34,22 @@ To get a local copy up and running follow these simple example steps.
 **Run** https://github.com/Goldinium/To_do_list_app.git
 
 **Test**
-npm i jest
 
 ### Test
+
+npm i jest
+
 npm run test 
+
+## Key Features
+
+- Display tasks and render them dynamically from JavaScript
+
+## Future Features
+
+- Implementing remove & add buttons
+
+- Implemeting interactivity 
 
 ## Authors
 
