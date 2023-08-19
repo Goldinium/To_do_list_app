@@ -6,19 +6,29 @@
 
 ![screenshot](./app_screenshot.png)
 
+# Table of content
+
+- [Tech-stack](#Tech-stack)
+- [Installation](#Installation)
+- [Features](#Features)
+- [Future_featues](#Future_featues)
+- [Authors](#Authors)
+- [Contribution](#Contribution)
+- [Support](#Support)
+- [Acknowledgments](#Acknowledgments)
+- [License](#License)
+
+
+
 This Website is a to-do-list project. A simple as it seems. You have your list of todos and whenever you finish one you can delete it. And then whenever you want to add a new one you can add it
 
-## Built With
+## Built With <a name="Tech-stack"></a>
 
 - HTML, CSS, JavaScript
 - Webpack
 - VS Code
 
-## Live Demo
-
-None; need to built locally
-
-## Getting Started
+## Getting Started <a name="Installation"></a>
 
 To get a local copy up and running follow these simple example steps.
 
@@ -39,38 +49,38 @@ npm i jest
 
 npm run test 
 
-## Key Features
+## Key Features <a name="Features"></a>
 
 - Display tasks and render them dynamically from JavaScript
 
-## Future Features
+## Future Features <a name="Future_featues"></a>
 
 - Implementing remove & add buttons
 
 - Implemeting interactivity 
 
-## Authors
+## Authors <a name="Authors"></a>
 
 👤 **Author1**
 
 - GitHub: [@Goldinium](https://github.com/Goldinium)
 
 
-## 🤝 Contributing
+## 🤝 Contributing <a name="Contribution"></a>
 
 Any contributing is welcome
 
 Feel free to check the [issues page](https://github.com/Goldinium/To_do_list_app/issues).
 
-## Show your support
+## Show your support <a name="Support"></a>
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## Acknowledgments <a name="Acknowledgments"></a>
 
 - This project belongs to [Microverse](https://microverse.org/).
 
-## 📝 License
+## 📝 License <a name="License"></a>
 
 - This project is [MIT](./Licenses/MIT.md) licensed.
 
